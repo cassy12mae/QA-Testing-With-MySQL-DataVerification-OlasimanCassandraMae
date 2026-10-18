@@ -52,6 +52,34 @@ Kara David's Wish Note is a PHP and MariaDB web application that allows users to
 | Government Position | Congressman |
 | Location | France |
 
+| Field | Value |
+|---|---|
+| First Name | Blessy |
+| Last Name | Olasiman |
+| Government Position | Mayor |
+| Location | Sagay |
+
+| Field | Value |
+|---|---|
+| First Name | Evelyn |
+| Last Name | Gonzales |
+| Government Position | Senator |
+| Location | Hinigaran |
+
+| Field | Value |
+|---|---|
+| First Name | Sophia |
+| Last Name | Japitana |
+| Government Position | Vice-Mayor |
+| Location | Sagay |
+
+| Field | Value |
+|---|---|
+| First Name | Kirsten |
+| Last Name | Japitana |
+| Government Position | Secretary |
+| Location | Hinigaran |
+
 ### Test Execution Results
 
 | Step | Action | Expected Result | Actual Result |

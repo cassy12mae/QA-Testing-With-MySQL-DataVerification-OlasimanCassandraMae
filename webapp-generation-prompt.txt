@@ -1,0 +1,15 @@
+Create a PHP and MariaDB web application titled "Kara David's Wish Note" using a database named `birthday_wishnote` and a table named `main_corrupt_politicians`.
+
+The application must provide a form with these fields:
+- FirstName: required, maximum 30 characters.
+- LastName: required, maximum 30 characters.
+- GovPosition: required, maximum 20 characters.
+- Location: optional, maximum 40 characters.
+
+Include a "Send Wish Note" button. When clicked, display a modal titled "Verify Target Data" showing all four entered values. Include "Cancel" and "Confirm & Send" buttons. Cancel must close the modal without submitting the form. Confirm & Send must submit the data to the PHP backend and display a success message after a successful database insertion.
+
+Connect to MariaDB using PHP MySQLi and use a prepared statement for the INSERT query.
+
+IMPORTANT: Intentionally omit the Location column from the SQL INSERT statement and omit its value from bind_param(), even though Location is present in the form and verification modal. This is an intentional defect for the assignment's testing process.
+
+Use a clean, responsive interface with clear labels, required-field validation, character limits, and a button hover effect. Do not add unrelated features.
